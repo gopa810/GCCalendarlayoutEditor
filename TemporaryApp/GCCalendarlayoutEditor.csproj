@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C08B18FF-6F1D-4ACB-82C4-8D8354C5E2EB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GCAL</RootNamespace>
+    <AssemblyName>TemporaryApp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\CalendarLayoutEditControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\CalendarLayoutEditControl.Designer.cs">
+      <DependentUpon>CalendarLayoutEditControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DlgGetPlace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DlgGetPlace.Designer.cs">
+      <DependentUpon>DlgGetPlace.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DlgGetTimePoint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DlgGetTimePoint.Designer.cs">
+      <DependentUpon>DlgGetTimePoint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DlgGetTimeRange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DlgGetTimeRange.Designer.cs">
+      <DependentUpon>DlgGetTimeRange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\DlgGetYearRange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DlgGetYearRange.Designer.cs">
+      <DependentUpon>DlgGetYearRange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NavigatorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NavigatorForm.Designer.cs">
+      <DependentUpon>NavigatorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CalendarLayout.cs" />
+    <Compile Include="Model\CalendarLayoutColumn.cs" />
+    <Compile Include="Model\CalendarLayoutItem.cs" />
+    <Compile Include="Views\FinderControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\FinderControl.Designer.cs">
+      <DependentUpon>FinderControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controls\CalendarLayoutEditControl.resx">
+      <DependentUpon>CalendarLayoutEditControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DlgGetTimePoint.resx">
+      <DependentUpon>DlgGetTimePoint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DlgGetYearRange.resx">
+      <DependentUpon>DlgGetYearRange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NavigatorForm.resx">
+      <DependentUpon>NavigatorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FinderControl.resx">
+      <DependentUpon>FinderControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SearchConditionControl.resx">
+      <DependentUpon>SearchConditionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SearchConditionsView.resx">
+      <DependentUpon>SearchConditionsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Views\SearchConditionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\SearchConditionControl.Designer.cs">
+      <DependentUpon>SearchConditionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SearchConditionsView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\SearchConditionsView.Designer.cs">
+      <DependentUpon>SearchConditionsView.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Base\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

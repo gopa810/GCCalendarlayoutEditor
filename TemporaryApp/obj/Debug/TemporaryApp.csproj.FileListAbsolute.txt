@@ -1,0 +1,10 @@
+C:\Telfort\MyTools\TemporaryApp\TemporaryApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Telfort\MyTools\TemporaryApp\TemporaryApp\obj\Debug\TemporaryApp.Form1.resources
+C:\Telfort\MyTools\TemporaryApp\TemporaryApp\obj\Debug\TemporaryApp.Properties.Resources.resources
+C:\Telfort\MyTools\TemporaryApp\TemporaryApp\obj\Debug\TemporaryApp.SearchConditionControl.resources
+C:\Telfort\MyTools\TemporaryApp\TemporaryApp\obj\Debug\TemporaryApp.SearchConditionsView.resources
+C:\Telfort\MyTools\TemporaryApp\TemporaryApp\obj\Debug\TemporaryApp.csproj.GenerateResource.Cache
+C:\Telfort\MyTools\TemporaryApp\TemporaryApp\bin\Debug\TemporaryApp.exe
+C:\Telfort\MyTools\TemporaryApp\TemporaryApp\bin\Debug\TemporaryApp.pdb
+C:\Telfort\MyTools\TemporaryApp\TemporaryApp\obj\Debug\TemporaryApp.exe
+C:\Telfort\MyTools\TemporaryApp\TemporaryApp\obj\Debug\TemporaryApp.pdb

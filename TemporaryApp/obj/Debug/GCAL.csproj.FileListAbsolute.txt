@@ -1,0 +1,15 @@
+C:\Telfort\MyTools\TemporaryApp\TemporaryApp\bin\Debug\TemporaryApp.exe
+C:\Telfort\MyTools\TemporaryApp\TemporaryApp\bin\Debug\TemporaryApp.pdb
+C:\Telfort\MyTools\TemporaryApp\TemporaryApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Telfort\MyTools\TemporaryApp\TemporaryApp\obj\Debug\GCAL.MainForm.resources
+C:\Telfort\MyTools\TemporaryApp\TemporaryApp\obj\Debug\GCAL.Properties.Resources.resources
+C:\Telfort\MyTools\TemporaryApp\TemporaryApp\obj\Debug\GCAL.csproj.GenerateResource.Cache
+C:\Telfort\MyTools\TemporaryApp\TemporaryApp\obj\Debug\TemporaryApp.exe
+C:\Telfort\MyTools\TemporaryApp\TemporaryApp\obj\Debug\TemporaryApp.pdb
+C:\Telfort\MyTools\TemporaryApp\TemporaryApp\obj\Debug\GCAL.Forms.NavigatorForm.resources
+C:\Telfort\MyTools\TemporaryApp\TemporaryApp\obj\Debug\GCAL.Views.FinderControl.resources
+C:\Telfort\MyTools\TemporaryApp\TemporaryApp\obj\Debug\GCAL.Views.SearchConditionControl.resources
+C:\Telfort\MyTools\TemporaryApp\TemporaryApp\obj\Debug\GCAL.Views.SearchConditionsView.resources
+C:\Telfort\MyTools\TemporaryApp\TemporaryApp\obj\Debug\GCAL.Dialogs.DlgGetTimePoint.resources
+C:\Telfort\MyTools\TemporaryApp\TemporaryApp\obj\Debug\GCAL.Dialogs.DlgGetYearRange.resources
+C:\Telfort\MyTools\TemporaryApp\TemporaryApp\obj\Debug\GCAL.Controls.CalendarLayoutEditControl.resources
